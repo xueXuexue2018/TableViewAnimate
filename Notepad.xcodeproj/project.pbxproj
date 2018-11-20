@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B840A4021A3A4C200392460 /* AnimationTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B840A3F21A3A4C200392460 /* AnimationTable.swift */; };
+		6B840A4221A3E77200392460 /* PushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B840A4121A3E77200392460 /* PushTransition.swift */; };
+		6BCDA52B21A28C0F006ED2CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCDA52A21A28C0F006ED2CA /* AppDelegate.swift */; };
+		6BCDA52D21A28C0F006ED2CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCDA52C21A28C0F006ED2CA /* ViewController.swift */; };
+		6BCDA53021A28C0F006ED2CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BCDA52E21A28C0F006ED2CA /* Main.storyboard */; };
+		6BCDA53321A28C0F006ED2CA /* Notepad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BCDA53121A28C0F006ED2CA /* Notepad.xcdatamodeld */; };
+		6BCDA53521A28C12006ED2CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BCDA53421A28C12006ED2CA /* Assets.xcassets */; };
+		6BCDA53821A28C12006ED2CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BCDA53621A28C12006ED2CA /* LaunchScreen.storyboard */; };
+		6BCDA54621A28D35006ED2CA /* HideTabbarWhenPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCDA54521A28D35006ED2CA /* HideTabbarWhenPush.swift */; };
+		6BCDA54921A28DD9006ED2CA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCDA54721A28DD9006ED2CA /* BaseViewController.swift */; };
+		6BCDA54D21A28E4D006ED2CA /* NoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCDA54C21A28E4D006ED2CA /* NoContentView.swift */; };
+		6BCDA54F21A28E75006ED2CA /* BaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCDA54E21A28E75006ED2CA /* BaseTableView.swift */; };
+		6BCDA55121A28E88006ED2CA /* JTTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCDA55021A28E88006ED2CA /* JTTableView.swift */; };
+		6BCDA55421A28F06006ED2CA /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCDA55321A28F06006ED2CA /* Macros.swift */; };
+		6BCDA55821A28F6A006ED2CA /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCDA55721A28F6A006ED2CA /* UIColor.swift */; };
+		6BCDA55A21A2941D006ED2CA /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCDA55921A2941D006ED2CA /* BaseTableViewCell.swift */; };
+		6BCDA55E21A2B93F006ED2CA /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCDA55C21A2B93F006ED2CA /* EditViewController.swift */; };
+		6BCDA55F21A2B93F006ED2CA /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BCDA55D21A2B93F006ED2CA /* EditViewController.xib */; };
+		6BCDA56221A2B9A4006ED2CA /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCDA56121A2B9A4006ED2CA /* Animation.swift */; };
+		6BCDA56421A2C03E006ED2CA /* PresentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCDA56321A2C03E006ED2CA /* PresentTransition.swift */; };
+		B26AAD4B51A3E9FF41A97392 /* libPods-Notepad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BBA4A14BDD7796AF90C9BC /* libPods-Notepad.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41BBA4A14BDD7796AF90C9BC /* libPods-Notepad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Notepad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B840A3F21A3A4C200392460 /* AnimationTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTable.swift; sourceTree = "<group>"; };
+		6B840A4121A3E77200392460 /* PushTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTransition.swift; sourceTree = "<group>"; };
+		6BCDA52721A28C0F006ED2CA /* Notepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCDA52A21A28C0F006ED2CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BCDA52C21A28C0F006ED2CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BCDA52F21A28C0F006ED2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BCDA53221A28C0F006ED2CA /* Notepad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notepad.xcdatamodel; sourceTree = "<group>"; };
+		6BCDA53421A28C12006ED2CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BCDA53721A28C12006ED2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BCDA53921A28C12006ED2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BCDA54521A28D35006ED2CA /* HideTabbarWhenPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideTabbarWhenPush.swift; sourceTree = "<group>"; };
+		6BCDA54721A28DD9006ED2CA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6BCDA54C21A28E4D006ED2CA /* NoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoContentView.swift; sourceTree = "<group>"; };
+		6BCDA54E21A28E75006ED2CA /* BaseTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableView.swift; sourceTree = "<group>"; };
+		6BCDA55021A28E88006ED2CA /* JTTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTTableView.swift; sourceTree = "<group>"; };
+		6BCDA55321A28F06006ED2CA /* Macros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
+		6BCDA55721A28F6A006ED2CA /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		6BCDA55921A2941D006ED2CA /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		6BCDA55C21A2B93F006ED2CA /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		6BCDA55D21A2B93F006ED2CA /* EditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
+		6BCDA56121A2B9A4006ED2CA /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		6BCDA56321A2C03E006ED2CA /* PresentTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentTransition.swift; sourceTree = "<group>"; };
+		98D93C4119AD2F5BD3C7AF25 /* Pods-Notepad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notepad.release.xcconfig"; path = "Pods/Target Support Files/Pods-Notepad/Pods-Notepad.release.xcconfig"; sourceTree = "<group>"; };
+		AC3B0219476C7838CE865474 /* Pods-Notepad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notepad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notepad/Pods-Notepad.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BCDA52421A28C0F006ED2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26AAD4B51A3E9FF41A97392 /* libPods-Notepad.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C8C8686FAC5845BDFF77260 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC3B0219476C7838CE865474 /* Pods-Notepad.debug.xcconfig */,
+				98D93C4119AD2F5BD3C7AF25 /* Pods-Notepad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		10FF07E764B02AA3EE11F903 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41BBA4A14BDD7796AF90C9BC /* libPods-Notepad.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BCDA51E21A28C0F006ED2CA = {
+			isa = PBXGroup;
+			children = (
+				6BCDA52921A28C0F006ED2CA /* Notepad */,
+				6BCDA52821A28C0F006ED2CA /* Products */,
+				0C8C8686FAC5845BDFF77260 /* Pods */,
+				10FF07E764B02AA3EE11F903 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BCDA52821A28C0F006ED2CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BCDA52721A28C0F006ED2CA /* Notepad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BCDA52921A28C0F006ED2CA /* Notepad */ = {
+			isa = PBXGroup;
+			children = (
+				6BCDA55521A28F3C006ED2CA /* Extension */,
+				6BCDA55221A28EE8006ED2CA /* Macros */,
+				6BCDA54421A28D0A006ED2CA /* Class */,
+				6BCDA54321A28CE5006ED2CA /* Configue */,
+				6BCDA54221A28CDE006ED2CA /* API */,
+				6BCDA54121A28CD8006ED2CA /* Base */,
+				6BCDA54021A28CD1006ED2CA /* Utils */,
+				6BCDA52A21A28C0F006ED2CA /* AppDelegate.swift */,
+				6BCDA52C21A28C0F006ED2CA /* ViewController.swift */,
+				6BCDA52E21A28C0F006ED2CA /* Main.storyboard */,
+				6BCDA53421A28C12006ED2CA /* Assets.xcassets */,
+				6BCDA53621A28C12006ED2CA /* LaunchScreen.storyboard */,
+				6BCDA53921A28C12006ED2CA /* Info.plist */,
+				6BCDA53121A28C0F006ED2CA /* Notepad.xcdatamodeld */,
+			);
+			path = Notepad;
+			sourceTree = "<group>";
+		};
+		6BCDA53F21A28CB8006ED2CA /* List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		6BCDA54021A28CD1006ED2CA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6BCDA56021A2B98A006ED2CA /* Animation */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6BCDA54121A28CD8006ED2CA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6BCDA54521A28D35006ED2CA /* HideTabbarWhenPush.swift */,
+				6BCDA54721A28DD9006ED2CA /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6BCDA54221A28CDE006ED2CA /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6BCDA54321A28CE5006ED2CA /* Configue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configue;
+			sourceTree = "<group>";
+		};
+		6BCDA54421A28D0A006ED2CA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6BCDA55B21A2B923006ED2CA /* Edit */,
+				6BCDA53F21A28CB8006ED2CA /* List */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		6BCDA54B21A28E03006ED2CA /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				6BCDA54C21A28E4D006ED2CA /* NoContentView.swift */,
+				6BCDA54E21A28E75006ED2CA /* BaseTableView.swift */,
+				6BCDA55021A28E88006ED2CA /* JTTableView.swift */,
+				6BCDA55921A2941D006ED2CA /* BaseTableViewCell.swift */,
+				6B840A3F21A3A4C200392460 /* AnimationTable.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		6BCDA55221A28EE8006ED2CA /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				6BCDA55321A28F06006ED2CA /* Macros.swift */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		6BCDA55521A28F3C006ED2CA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6BCDA54B21A28E03006ED2CA /* TableView */,
+				6BCDA55621A28F46006ED2CA /* Color */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6BCDA55621A28F46006ED2CA /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				6BCDA55721A28F6A006ED2CA /* UIColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		6BCDA55B21A2B923006ED2CA /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				6BCDA55C21A2B93F006ED2CA /* EditViewController.swift */,
+				6BCDA55D21A2B93F006ED2CA /* EditViewController.xib */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		6BCDA56021A2B98A006ED2CA /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				6BCDA56121A2B9A4006ED2CA /* Animation.swift */,
+				6BCDA56321A2C03E006ED2CA /* PresentTransition.swift */,
+				6B840A4121A3E77200392460 /* PushTransition.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BCDA52621A28C0F006ED2CA /* Notepad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCDA53C21A28C12006ED2CA /* Build configuration list for PBXNativeTarget "Notepad" */;
+			buildPhases = (
+				33047838E507CFAC2F02AC24 /* [CP] Check Pods Manifest.lock */,
+				6BCDA52321A28C0F006ED2CA /* Sources */,
+				6BCDA52421A28C0F006ED2CA /* Frameworks */,
+				6BCDA52521A28C0F006ED2CA /* Resources */,
+				93124199CFDC064B6E80A02E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notepad;
+			productName = Notepad;
+			productReference = 6BCDA52721A28C0F006ED2CA /* Notepad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BCDA51F21A28C0F006ED2CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = juntuo;
+				TargetAttributes = {
+					6BCDA52621A28C0F006ED2CA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 6BCDA52221A28C0F006ED2CA /* Build configuration list for PBXProject "Notepad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BCDA51E21A28C0F006ED2CA;
+			productRefGroup = 6BCDA52821A28C0F006ED2CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BCDA52621A28C0F006ED2CA /* Notepad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BCDA52521A28C0F006ED2CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCDA55F21A2B93F006ED2CA /* EditViewController.xib in Resources */,
+				6BCDA53821A28C12006ED2CA /* LaunchScreen.storyboard in Resources */,
+				6BCDA53521A28C12006ED2CA /* Assets.xcassets in Resources */,
+				6BCDA53021A28C0F006ED2CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33047838E507CFAC2F02AC24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Notepad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93124199CFDC064B6E80A02E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Notepad/Pods-Notepad-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Notepad/Pods-Notepad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BCDA52321A28C0F006ED2CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCDA55421A28F06006ED2CA /* Macros.swift in Sources */,
+				6BCDA54921A28DD9006ED2CA /* BaseViewController.swift in Sources */,
+				6BCDA54F21A28E75006ED2CA /* BaseTableView.swift in Sources */,
+				6BCDA54D21A28E4D006ED2CA /* NoContentView.swift in Sources */,
+				6BCDA53321A28C0F006ED2CA /* Notepad.xcdatamodeld in Sources */,
+				6BCDA55A21A2941D006ED2CA /* BaseTableViewCell.swift in Sources */,
+				6BCDA52D21A28C0F006ED2CA /* ViewController.swift in Sources */,
+				6BCDA55121A28E88006ED2CA /* JTTableView.swift in Sources */,
+				6BCDA55E21A2B93F006ED2CA /* EditViewController.swift in Sources */,
+				6B840A4021A3A4C200392460 /* AnimationTable.swift in Sources */,
+				6B840A4221A3E77200392460 /* PushTransition.swift in Sources */,
+				6BCDA52B21A28C0F006ED2CA /* AppDelegate.swift in Sources */,
+				6BCDA56421A2C03E006ED2CA /* PresentTransition.swift in Sources */,
+				6BCDA54621A28D35006ED2CA /* HideTabbarWhenPush.swift in Sources */,
+				6BCDA55821A28F6A006ED2CA /* UIColor.swift in Sources */,
+				6BCDA56221A2B9A4006ED2CA /* Animation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BCDA52E21A28C0F006ED2CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BCDA52F21A28C0F006ED2CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BCDA53621A28C12006ED2CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BCDA53721A28C12006ED2CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BCDA53A21A28C12006ED2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BCDA53B21A28C12006ED2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BCDA53D21A28C12006ED2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3B0219476C7838CE865474 /* Pods-Notepad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Notepad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.juntuo168.Notepad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BCDA53E21A28C12006ED2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D93C4119AD2F5BD3C7AF25 /* Pods-Notepad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Notepad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.juntuo168.Notepad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BCDA52221A28C0F006ED2CA /* Build configuration list for PBXProject "Notepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCDA53A21A28C12006ED2CA /* Debug */,
+				6BCDA53B21A28C12006ED2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCDA53C21A28C12006ED2CA /* Build configuration list for PBXNativeTarget "Notepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCDA53D21A28C12006ED2CA /* Debug */,
+				6BCDA53E21A28C12006ED2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6BCDA53121A28C0F006ED2CA /* Notepad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6BCDA53221A28C0F006ED2CA /* Notepad.xcdatamodel */,
+			);
+			currentVersion = 6BCDA53221A28C0F006ED2CA /* Notepad.xcdatamodel */;
+			path = Notepad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6BCDA51F21A28C0F006ED2CA /* Project object */;
+}
